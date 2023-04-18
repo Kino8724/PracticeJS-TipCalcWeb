@@ -4,9 +4,9 @@ let tip = 0;
 let total = 0;
 
 function calculateTip() {
-    cost = document.getElementById("cost").value;
-    tip = document.getElementById("tip").value / 100;
-    total = (cost*tip) + tip;
+    cost = Number(document.getElementById("cost").value);
+    tip = Number(document.getElementById("tip").value / 100);
+    total = (cost*tip) + cost;
+    document.getElementById("Total").innerHTML = total;
 }
 
-document.getElementById("Total").innerHTML = total;
