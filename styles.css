@@ -67,6 +67,6 @@ input::-webkit-inner-spin-button {
 }
 /* This hides from firefox browser */
 input[type=number] {
-  -moz-appearance: textfield;
+  appearance: textfield;
 }
 /* These inputs are to hide the arrows inside the number input  */
